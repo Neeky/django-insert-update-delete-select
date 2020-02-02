@@ -4,7 +4,7 @@ from django.http import response
 from django.http import JsonResponse
 from django.views.generic import base, edit, detail, list
 
-from apps.foo import models
+from .. import models
 
 
 logger = logging.getLogger('mysite').getChild(__name__)
